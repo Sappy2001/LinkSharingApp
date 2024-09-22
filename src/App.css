@@ -1,0 +1,85 @@
+#root {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #efeeec !important;
+}
+.Home nav {
+	display: flex;
+	height: 40px;
+	background-color: #124b82;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Home nav h2 {
+	color: aliceblue;
+	padding: 6px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+.nav-links a {
+	color: white;
+	padding: 5px;
+	margin-left: 5px;
+}
+.nav-links a.active {
+	background: #eea227;
+	border-radius: 5px;
+	color: aliceblue;
+}
+
+.auth-header h2 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.auth-header {
+	display: flex;
+	align-items: flex-start;
+}
+.in-mobile {
+	width: 33%;
+	height: 75%;
+	position: relative;
+	top: 14%;
+	left: 26%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	word-wrap: break-word;
+}
+
+/* as its an backgroundImg so background-size required */
+.display-pic {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	top: 5%;
+	border: 1px solid black;
+	border-radius: 100%;
+	background-size: cover;
+}
+.userName {
+	color: #4485c2;
+	font-size: 24px;
+	margin: 30px auto 0;
+	font-weight: 700;
+	text-align: center;
+	font-family: "Lucida Handwriting", "Lucida Console";
+	padding: 0 10px;
+}
+
+.infoBoxes {
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	bottom: 40px;
+}
