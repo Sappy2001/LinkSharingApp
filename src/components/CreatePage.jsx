@@ -8,14 +8,13 @@ import "./createPage.css";
 const CreatePage = () => {
 	const [userData, setUserData] = useState({
 		pic: "",
-		fname: "",
-		lname: "",
+		fname: "Your",
+		lname: "Name",
 		git: "",
 		ig: "",
 		tweet: "",
 	});
 	console.log(userData);
-	4;
 
 	const handleRedirect = (buttonText) => {
 		// without if the link will start with localhost(relative path)
