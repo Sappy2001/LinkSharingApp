@@ -57,8 +57,8 @@ body {
 
 /* as its an backgroundImg so background-size required */
 .display-pic {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	position: relative;
 	top: 5%;
 	border: 1px solid black;

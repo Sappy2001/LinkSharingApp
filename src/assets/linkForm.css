@@ -1,0 +1,9 @@
+.cropButton {
+	width: 40%;
+	padding: 5px;
+	margin: 0 auto 10px;
+	background-color: red;
+}
+.inputFile {
+	display: none;
+}
